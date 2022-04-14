@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 /// alll utils for working with colors in Flutter/Dart
 class ColorAPI {
   /// create a material color
-  MaterialColor createMaterialColor(Color color) {
+  static MaterialColor createMaterialColor(Color color) {
     List strengths = <double>[.05];
     Map<int, Color> swatch = {};
     final int r = color.red, g = color.green, b = color.blue;
