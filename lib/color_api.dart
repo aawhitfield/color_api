@@ -1,6 +1,4 @@
-library color_api;
-
-import 'package:flutter/material.dart';
+part of 'my_utils.dart';
 
 /// alll utils for working with colors in Flutter/Dart
 class ColorAPI {

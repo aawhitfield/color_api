@@ -1,13 +1,14 @@
-name: color_api
-description: API for Colors in Dart
-version: 0.0.2
-homepage:
+name: my_utils
+description: API for Custom Utilities in Dart
+version: 0.0.3
+homepage: 'https://www.binarychaos.us'
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
+  cloud_firestore: ^3.1.12
   flutter:
     sdk: flutter
 
